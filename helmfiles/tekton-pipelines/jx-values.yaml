@@ -38,7 +38,6 @@ jxRequirements:
   - key: production
   ingress:
     domain: svc.cluster.local
-    externalDNS: false
     ignoreLoadBalancer: true
     kind: ingress
     namespaceSubDomain: .tekton-pipelines.
